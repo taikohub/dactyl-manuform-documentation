@@ -7,6 +7,7 @@
 * [5. Hot Swapping Keyswitches](4.-hot-swapping-keyswitches.md)
 * [6. Tenting Your Keyboard](6.-other-features.md)
 * [7. Swapping Microcontrollers](7.-swapping-microcontrollers.md)
-* [8. Troubleshooting](5.-troubleshooting.md)
+* [8. Troubleshooting](5.-troubleshooting/README.md)
+  * [8.1 Troubleshooting: QMK Toolbox](5.-troubleshooting/8.1-troubleshooting-qmk-toolbox.md)
 * [9. Terminology](7.-terminology.md)
 * [10. CHANGELOG](10.-changelog.md)
