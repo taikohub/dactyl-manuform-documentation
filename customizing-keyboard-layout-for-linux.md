@@ -107,7 +107,7 @@ Save your keymap.c after you are finished editing.
 
 Before you flash the firmware, ensure you have:
 
-* [ ] Disconnect the TRRS cord from each piece of the keyboard. The TRRS cord looks like an audio cord and connects to the socket indicated by the blue arrow in Figure 4.2 below.
+* [ ] Disconnect the audio cord from each piece of the keyboard. The audio cord connects to the socket indicated by the blue arrow in Figure 4.2 below.
 * [ ] Connected one piece of the keyboard to your computer via USB cord
 
 
@@ -124,7 +124,7 @@ You should see:
 
 When you see "Detecting USB port, reset your controller now..." in the terminal, **click the keyboard reset button**, as indicated by the green arrow in Figure 4.2.
 
-![Figure 4.2. The green arrow indicates the reset switch. The blue arrow indicates the TRRS socket.](.gitbook/assets/taikorobotics\_ergonomic\_split\_mechanical\_curvilinear\_keyboard\_with\_audio\_socket.jpg)
+![Figure 4.2 The green arrow indicates the reset switch. The blue arrow indicates the socket connecting the two pieces of the keyboard.](.gitbook/assets/taikorobotics\_ergonomic\_split\_mechanical\_curvilinear\_keyboard\_with\_audio\_socket.jpg)
 
 
 
@@ -144,4 +144,4 @@ If it flashes correctly, you should see this message:&#x20;
 
 4.8 Before using the keyboard
 
-Make sure no keyboard is connected to your computer before attaching the TRRS cord to each piece of the keyboard. Afterwards, your keyboard is ready to go. Simply connect the USB cord from your computer to the **left** keyboard.
+Make sure no keyboard is connected to your computer before attaching the audio cord to each piece of the keyboard. Afterwards, your keyboard is ready to go. Simply connect the USB cord from your computer to the **left** keyboard. Good work, you did it 🥳!

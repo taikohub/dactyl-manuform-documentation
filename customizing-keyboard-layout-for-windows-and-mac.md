@@ -112,7 +112,12 @@ B. Click <mark style="color:yellow;">`Open`</mark> then select the <mark style="
 
 C. Make sure the dropdown menu shows <mark style="color:yellow;">`Atmega32U4`</mark>.
 
-D. Check off <mark style="color:yellow;">`Auto-Flash`</mark>. **DO NOT click Flash just yet!** First ensure your keyboard is unplugged from your computer. Disconnect the cord connecting each piece of the keyboard. Then connect only one piece of the keyboard to your computer via USB. Note that this cord looks like an audio cord and connects to the socket indicated by the blue arrow in Figure 3.4 below.
+D. Check off <mark style="color:yellow;">`Auto-Flash`</mark>. **DO NOT click Flash just yet!**&#x20;
+
+Before you flash the firmware, ensure you have:
+
+* [ ] Disconnect the audio cord from each piece of the keyboard. This cord normally connects to the socket indicated by the blue arrow in Figure 4.2 below.
+* [ ] Connected one piece of the keyboard to your computer via USB cord.
 
 E. After ensuring only one piece of the keyboard is connected to your computer and the audio cord is disconnected from both sides, click <mark style="color:yellow;">`Flash`</mark>. The toolbox will wait for you as you perform the following step.
 
@@ -155,6 +160,8 @@ If it flashes correctly, you should see the following.
 
 
 3.5 Repeat sections 3.3.E and 3.5 for the other piece of your keyboard.
+
+
 
 3.6 Reconnect the two pieces with the audio cord. The sockets for each piece are shown by the blue arrow in Figure 3.4. Then connect the USB cord from the **left** keyboard to the computer. Good work, you did it 🥳!
 
