@@ -1,4 +1,8 @@
-# 4. Custom Keymapping with QMK with Command Line
+---
+description: This section uses QMK CLI, a CLI tool compatible with Linux, Mac and Windows.
+---
+
+# 4. Customizing Keyboard Layout for Linux
 
 4.1 Instructions
 

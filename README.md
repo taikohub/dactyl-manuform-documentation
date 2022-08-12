@@ -8,13 +8,13 @@ Please make sure you selected the correct keyboard version on the left. Version 
 
 1.1 Getting started
 
-Your keyboard should work without any configurations. Simply plug in the USB cord to the left side of the keyboard. Your keyboard comes pre-flashed with the default keymap seen in sections 1.1 to 1.3 below.
+Your keyboard should work without any configurations. Simply plug in the USB cord to the left side of the keyboard. Your keyboard comes pre-flashed with the default keyboard layout seen in sections 1.1 to 1.3 below.
 
 The rest of the documentation discusses how to customize the keyboard.
 
 
 
-1.1 Default keymap for size large (6 keyed thumb cluster)
+1.1 Default keyboard layout for size large (6 keyed thumb cluster)
 
 ![](<.gitbook/assets/Screenshot from 2021-06-24 21-58-42.png>)
 
@@ -24,9 +24,9 @@ The rest of the documentation discusses how to customize the keyboard.
 
 
 
-1.2 Default keymap for size medium (5 keyed thumb cluster)
+1.2 Default keyboard layout for size medium (5 keyed thumb cluster)
 
-![If your 5 keyed thumb cluster keyboard was shipped July 12, 2022 or later, it will have the keymap shown above. For keyboards shipped prior to July 12, 2022, please see section 9. CHANGELOG.](.gitbook/assets/five\_layer\_0.jpg)
+![If your 5 keyed thumb cluster keyboard was shipped July 12, 2022 or later, it will have the keyboard layout shown above. For keyboards shipped prior to July 12, 2022, please see section 9. CHANGELOG.](.gitbook/assets/five\_layer\_0.jpg)
 
 ![](.gitbook/assets/five\_layer\_1.png)
 
@@ -34,7 +34,7 @@ The rest of the documentation discusses how to customize the keyboard.
 
 
 
-1.3 Default keymap for size small (3 keyed thumb cluster)
+1.3 Default keyboard layout for size small (3 keyed thumb cluster)
 
 ![](<.gitbook/assets/Screenshot from 2021-09-28 13-24-34.png>)
 
