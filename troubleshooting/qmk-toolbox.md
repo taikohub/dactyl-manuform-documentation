@@ -1,5 +1,7 @@
 ---
-description: For Windows and Mac
+description: >-
+  QMK Toolbox is the graphical interface for Windows and Mac. It is not
+  compatible with Linux.
 ---
 
 # 8.1 Troubleshooting: QMK Toolbox

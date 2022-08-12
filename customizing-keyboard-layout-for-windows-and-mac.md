@@ -1,11 +1,11 @@
-# 3. Custom Keymapping with QMK for Windows and Mac
+# 3. Customizing Keyboard Layout for Windows and Mac
 
 {% hint style="warning" %}
-QMK Toolbox currently does not support Linux. See [Section 4](1.-custom-key-mapping-with-qmk-with-cli.md) instead.
+QMK Toolbox currently does not support Linux. See [Section 4](customizing-keyboard-layout-for-linux.md) instead.
 {% endhint %}
 
 {% hint style="info" %}
-For troubleshooting, see [Section 8.1](5.-troubleshooting/8.1-troubleshooting-qmk-toolbox.md).
+For troubleshooting, see [Section 8.1](troubleshooting/qmk-toolbox.md).
 {% endhint %}
 
 
