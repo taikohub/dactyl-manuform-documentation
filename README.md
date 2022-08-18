@@ -12,32 +12,34 @@ Your keyboard should work without any configurations. Simply plug in the USB cor
 
 The rest of the documentation discusses how to customize the keyboard.
 
-
-
-1.1 Default keyboard layout for size large (6 keyed thumb cluster)
-
-![](<.gitbook/assets/Screenshot from 2021-06-24 21-58-42.png>)
-
-![](<.gitbook/assets/Screenshot from 2021-06-24 21-59-05.png>)
-
-![](<.gitbook/assets/Screenshot from 2021-06-24 21-59-24.png>)
+The MO(1) and MO(2) keys seen in the keyboard layouts in section 1.2 below are also known as LOWER and RAISE keys. These function similar to a SHIFT key on a regular keyboard.
 
 
 
-1.2 Default keyboard layout for size medium (5 keyed thumb cluster)
+1.2 Default keyboard layout for size large (6 keyed thumb cluster)
 
-![If your 5 keyed thumb cluster keyboard was shipped July 12, 2022 or later, it will have the keyboard layout shown above. For keyboards shipped prior to July 12, 2022, please see section 9. CHANGELOG.](.gitbook/assets/five\_layer\_0.jpg)
+![Layer 0 - Default keymap.](<.gitbook/assets/Screenshot from 2021-06-24 21-58-42.png>)
 
-![](.gitbook/assets/five\_layer\_1.png)
+![Layer 1 - The keymap when you hold MO(1).](<.gitbook/assets/Screenshot from 2021-06-24 21-59-05.png>)
 
-![](.gitbook/assets/five\_layer\_2.png)
+![Layer 2 - The keymap when you hold MO(2).](<.gitbook/assets/Screenshot from 2021-06-24 21-59-24.png>)
 
 
 
-1.3 Default keyboard layout for size small (3 keyed thumb cluster)
+1.3 Default keyboard layout for size medium (5 keyed thumb cluster)
 
-![](<.gitbook/assets/Screenshot from 2021-09-28 13-24-34.png>)
+![Layer 0 - Default keymap. If your 5 keyed thumb cluster keyboard was shipped July 12, 2022 or later, it will have the keyboard layout shown above. For keyboards shipped prior to July 12, 2022, please see section 9. CHANGELOG.](.gitbook/assets/five\_layer\_0.jpg)
 
-![](<.gitbook/assets/Screenshot from 2021-09-28 13-31-04.png>)
+![Layer 1 - The keymap when you hold MO(1).](.gitbook/assets/five\_layer\_1.png)
 
-![](<.gitbook/assets/Screenshot from 2021-09-28 13-31-08.png>)
+![Layer 2 - The keymap when you hold MO(2).](.gitbook/assets/five\_layer\_2.png)
+
+
+
+1.4 Default keyboard layout for size small (3 keyed thumb cluster)
+
+![Layer 0 - Default keymap.](.gitbook/assets/layer0.png)
+
+![Layer 1 - The keymap when you hold MO(1).](.gitbook/assets/layer1.png)
+
+![Layer 2 - The keymap when you hold MO(2).](.gitbook/assets/layer2.png)
