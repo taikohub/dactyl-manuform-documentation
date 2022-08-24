@@ -18,14 +18,16 @@ For reference, see the [QMK documentation](https://docs.qmk.fm/).
 
 4.2 Install the QMK CLI tool if you have not used it before
 
-```
+```bash
 $ python3 -m pip install --user qmk 
 $ qmk setup
 ```
 
 
 
-4.3 Test that the QMK CLI tool works by compiling a keymapping. Here I use the clueboard/66/rev3 keymap
+4.3 Test that the QMK CLI tool works by compiling a keymapping
+
+Here I test it with the clueboard/66/rev3 keymap.
 
 ```bash
 $ qmk compile -kb clueboard/66/rev3 -km default
@@ -51,14 +53,14 @@ You should see a message similar to below:
 $ qmk new-keymap -kb handwired/dactyl_manuform/5x6
 ```
 
-You'll then be prompted to give a name to the keymap. Here I give it the name `keyboard_taiko`.&#x20;
+You'll then be prompted to give a name to the keymap. Here I give it the name `taiko`.&#x20;
 
 
 
-4.5 Edit the keymap.c file with your preferred editor. Here I use nan
+4.5 Edit the keymap.c file with your preferred editor. Here I use nano.
 
-```
-$ nano ~/qmk_firmware/keyboards/handwired/dactyl_manuform/5x6/keymaps/keyboard_taiko/keymap.c
+```bash
+$ nano ~/qmk_firmware/keyboards/handwired/dactyl_manuform/5x6/keymaps/taiko/keymap.c
 ```
 
 While editing your keymap.c, you may wish to look at the following:
@@ -115,7 +117,7 @@ Before you flash the firmware, ensure you have:
 Then flash the firmware:
 
 ```bash
-$ qmk flash -kb handwired/dactyl_manuform/5x6 -km keyboard_taiko
+$ qmk flash -kb handwired/dactyl_manuform/5x6 -km taiko
 ```
 
 You should see:
