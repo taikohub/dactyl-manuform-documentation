@@ -2,13 +2,16 @@
 description: This section uses QMK CLI, a CLI tool compatible with Linux, Mac and Windows.
 ---
 
-# 4. Customizing Keyboard Layout for Linux
+# 4. Customizing Keyboard Layout for Linux with QMK
 
 4.1 Instructions
 
-```bash
-$ Text after the $ sign refers to what is typed into the terminal.
+{% code lineNumbers="true" %}
 ```
+Text in code block refers to what is typed into the terminal.
+Enter one line at a time.
+```
+{% endcode %}
 
 > Text in block quotes refers to the terminal output.
 
@@ -18,10 +21,12 @@ For reference, see the [QMK documentation](https://docs.qmk.fm/).
 
 4.2 Install the QMK CLI tool if you have not used it before
 
+{% code lineNumbers="true" %}
 ```bash
-$ python3 -m pip install --user qmk 
-$ qmk setup
+python3 -m pip install --user qmk 
+qmk setup
 ```
+{% endcode %}
 
 
 
@@ -29,9 +34,11 @@ $ qmk setup
 
 Here I test it with the clueboard/66/rev3 keymap.
 
+{% code lineNumbers="true" %}
 ```bash
-$ qmk compile -kb clueboard/66/rev3 -km default
+qmk compile -kb clueboard/66/rev3 -km default
 ```
+{% endcode %}
 
 You should see a message similar to below:
 
@@ -49,9 +56,11 @@ You should see a message similar to below:
 
 4.4 Create a custom keymap
 
+{% code lineNumbers="true" %}
 ```bash
-$ qmk new-keymap -kb handwired/dactyl_manuform/5x6
+qmk new-keymap -kb handwired/dactyl_manuform/5x6
 ```
+{% endcode %}
 
 You'll then be prompted to give a name to the keymap. Here I give it the name `taiko`.&#x20;
 
@@ -59,9 +68,11 @@ You'll then be prompted to give a name to the keymap. Here I give it the name `t
 
 4.5 Edit the keymap.c file with your preferred editor. Here I use nano.
 
+{% code lineNumbers="true" %}
 ```bash
-$ nano ~/qmk_firmware/keyboards/handwired/dactyl_manuform/5x6/keymaps/taiko/keymap.c
+nano ~/qmk_firmware/keyboards/handwired/dactyl_manuform/5x6/keymaps/taiko/keymap.c
 ```
+{% endcode %}
 
 While editing your keymap.c, you may wish to look at the following:
 
@@ -116,9 +127,11 @@ Before you flash the firmware, ensure you have:
 
 Then flash the firmware:
 
+{% code lineNumbers="true" %}
 ```bash
-$ qmk flash -kb handwired/dactyl_manuform/5x6 -km taiko
+qmk flash -kb handwired/dactyl_manuform/5x6 -km taiko
 ```
+{% endcode %}
 
 You should see:
 

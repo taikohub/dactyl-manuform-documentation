@@ -6,6 +6,6 @@
 
 ![Figure 10.2. Default keymap layer for medium sized keyboards shipped earlier than July 12, 2022.](.gitbook/assets/five\_layer\_0.png)
 
-**2022-08-01**: All keyboards shipped after this date have a TRS port and ships and contains a TRS cord. Keyboards shipped prior to this date have a TRRS port and contains a TRRS cord.
+**2022-08-01**: All keyboards shipped after Aug 1, 2022 have a TRS port and come with a TRS cord. Though TRRS cords will also work. Keyboards shipped prior to this date have a TRRS port and come with a TRRS cord. TRS cords will not work.
 
 ![Figure 10.3 Keyboards shipped Aug 1 2022  or later have a TRS cord. Keyboards shipped prior to Aug 1 2022 have a TRRS port.](.gitbook/assets/TRS\_TRRS.jpg)
