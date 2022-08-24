@@ -6,7 +6,7 @@
 
 9.3 Layers:  Layers are a QMK specific functionality. The concept is similar to a Fn or FnLock key that is seen on some keyboards.
 
-9.4 Layer Key: The keycode you use to switch to a different layer. If you are using QMK Configurator, you'll see M(0) or M(1). If you are following [customizing-keyboard-layout-for-linux.md](customizing-keyboard-layout-for-linux.md "mention"), you'll see the RAISE and LOWER layer keys in the default dactyl\_manuform/5x6 layout.
+9.4 Layer Key: The keycode you use to switch to a different layer. If you are using QMK Configurator, you'll see M(0) or M(1). If you are following [customizing-keyboard-layout-for-linux-with-qmk.md](customizing-keyboard-layout-for-linux-with-qmk.md "mention"), you'll see the RAISE and LOWER layer keys in the default dactyl\_manuform/5x6 layout.
 
 9.5 QMK Toolbox: A software tool used to flash a new layout onto your keyboard. It is available on Mac and Windows.
 

@@ -1,11 +1,11 @@
-# 3. Customizing Keyboard Layout for Windows and Mac
+# 3. Customizing Keyboard Layout for Windows and Mac with QMK
 
 3.1 Instructions
 
 This section uses QMK Toolbox, a GUI (graphical user interface) compatible with Mac and Windows. The QMK CLI (command line interface) is also compatible with Mac and Windows. But if you are not familiar with programming, you should follow section instead.
 
 {% hint style="warning" %}
-QMK Toolbox currently does not support Linux. See [Section 4](customizing-keyboard-layout-for-linux.md) instead.
+QMK Toolbox currently does not support Linux. See [Section 4](customizing-keyboard-layout-for-linux-with-qmk.md) instead.
 {% endhint %}
 
 {% hint style="info" %}
