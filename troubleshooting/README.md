@@ -2,9 +2,9 @@
 description: Email david@taikohub.com for any questions.
 ---
 
-# 8. Troubleshooting
+# 9. Troubleshooting
 
-8.1 Keyswitch is not working
+9.1 Keyswitch is not working
 
 Remove the keyswitch from the socket with a keyswitch puller. Check if the metal pins on the bottom of the keyswitch are straight. If any of them are bent, gently bend it straight with pliers. If you don’t have pliers, you can use the pads of your fingers to gently pinch it straight.
 
@@ -12,7 +12,7 @@ If the keyswitch pins are straight, open up the base plate and check if any wire
 
 
 
-8.2 Keymapping is flipped
+9.2 Keymapping is flipped
 
 Check whether the USB cord is connecting the **left** piece of the keyboard to the computer. The USB socket on the right keyboard should only be used to flash keymapping. Conceptually, your computer assumes the keyboard connected to it is the left side. It assumes the right side is other piece.
 
@@ -20,6 +20,7 @@ If you had not disconnected the TRRS cord from each piece of the keyboard while 
 
 
 
-8.3 Thumb cluster not working after flashing right side of the keyboard
+9.3 Thumb cluster not working after flashing right side of the keyboard
 
 If the right side of the keyboard is directly connected to the computer, some keys on the thumb cluster will not register. This is normal. Simply make sure USB cable is connected to the left side of the keyboard and the TRRS cable is connected to the right side of the keyboard. The keyboard should start working as normal.
+

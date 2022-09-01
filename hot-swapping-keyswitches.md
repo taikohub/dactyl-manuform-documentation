@@ -1,12 +1,12 @@
-# 5. Hot Swapping Keyswitches
+# 6. Hot Swapping Keyswitches
 
-5.1 Hotswapping
+6.1 Hotswapping
 
 Hotswapping refers to swapping out components while your keyboard is connected to your computer or another power source. Hotswapping keyswitches is safe and has been tested countless times. But you should **not** hotswap microcontrollers, as noted in Section 7.&#x20;
 
 
 
-5.2 Necessary tools and components
+6.2 Necessary tools and components
 
 * Keyswitches: **5-legged MX style keyswitches** are recommended. MX Cherry and Gaterons are officially supported. But it should work with most MX style switches.
 * Keyswitch puller
@@ -21,11 +21,11 @@ Not compatible with Kailh switches and low profile switches.
 5.2 Hotswapping demo
 
 {% embed url="https://youtu.be/o79LDrqGqjs" %}
-Video 5.1. Hotswapping demo.
+Video 6.1. Hotswapping demo.
 {% endembed %}
 
 {% embed url="https://youtu.be/oQxY-tLORR0" %}
-Video 5.2. Another hotswapping demo.
+Video 6.2. Another hotswapping demo.
 {% endembed %}
 
 

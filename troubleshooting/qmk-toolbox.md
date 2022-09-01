@@ -4,11 +4,11 @@ description: >-
   compatible with Linux.
 ---
 
-# 8.1 Troubleshooting: QMK Toolbox
+# 9.1 Troubleshooting: QMK Toolbox
 
 <details>
 
-<summary>8.1.1 <code>read error: The I/O operation has been aborted because of either a thread exit or an application request.</code></summary>
+<summary>9.1.1 <code>read error: The I/O operation has been aborted because of either a thread exit or an application request.</code></summary>
 
 Problem: You tried to flash with QMK Toolbox. It completed the flash, but the keyboard didn't get flashed with your new keymapping at all. You see an output similar to the following in QMK Toolbox.
 
