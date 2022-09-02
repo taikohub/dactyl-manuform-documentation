@@ -20,5 +20,5 @@ Not compatible with Kailh switches and low profile switches.
 
 
 
-![Figure 2.1. 5-leg keyswitches are preferred.](.gitbook/assets/3.png)
+<figure><img src=".gitbook/assets/3.png" alt="five-leg-keyswitches-work-best-with-taiko-dactyl-keyboard"><figcaption><p>Figure 2.1. 5-leg keyswitches are preferred.</p></figcaption></figure>
 

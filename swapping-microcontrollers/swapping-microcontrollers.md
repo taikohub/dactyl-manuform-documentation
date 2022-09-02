@@ -29,7 +29,15 @@ Make sure that your JST-PH is correctly wired! The black wire and red wire shoul
 It's recommended you use batteries from Adafruit or Sparkfun. You can use other vendors, but note that some vendors sell LiPo batteries with their wires reversed. See video on this issue by Adafruit [here](https://www.youtube.com/watch?v=ILArrTIMFyM).
 {% endhint %}
 
-![Figure 7.1.1 Orient your JST connector same way as the photo above. The black wire should be on the right and red should be on the left.](../.gitbook/assets/lipo\_battery\_caution.png) ![Figure 7.1.2. This 3.7V 110mAh LiPo battery worked with nice!nano's during testing.](../.gitbook/assets/lipo\_battery.jpg)
+<div>
+
+<figure><img src="../.gitbook/assets/lipo_battery_caution.png" alt="taikohub-dactyl-manuform-keyboard-bluetooth-lipo-battery-caution"><figcaption><p>Figure 7.1.1 Orient your JST connector same way as the photo above. The black wire should be on the right and red should be on the left.</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/lipo_battery.jpg" alt="taikohub-dactyl-manuform-keyboard-bluetooth-lipo-battery"><figcaption><p>Figure 7.1.2. This 3.7V 110mAh LiPo battery worked with nice!nano's during testing.</p></figcaption></figure>
+
+</div>
 
 
 
@@ -43,11 +51,11 @@ If your keyboard shipped after 2022-08-01, follow the steps below.
 
 ### **Step 1**
 
-Take out the default microcontroller that came with the keyboard
+Remove the plastic cover and take out the default microcontroller that came with the keyboard.
 
 
 
-<figure><img src="../.gitbook/assets/taikohub-dactyl-manuform-keyboard-with-nice-nano-v2-step-1.jpg" alt=""><figcaption><p>Figure 7.1.2.1 Step 1 - Take out the default microcontroller that came with the keyboard.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/taikohub-dactyl-manuform-keyboard-with-nice-nano-v2-step-1.jpg" alt="taikohub-dactyl-manuform-keyboard-bluetooth-nice-nanos-step-1"><figcaption><p>Figure 7.1.2.1 Step 1 - Take out the default microcontroller that came with the keyboard.</p></figcaption></figure>
 
 
 
@@ -59,7 +67,7 @@ Optional: If you want the USB-C port to be closer to the edge of the keyboard, y
 
 
 
-<figure><img src="../.gitbook/assets/taikohub-dactyl-manuform-keyboard-with-nice-nano-v2-step-3.jpg" alt=""><figcaption><p>Figure 7.1.2.2 Step 2 - Insert the new Bluetooth enabled microcontroller. If you want the USB-C port to be closer to the edge of the keyboard, you can loosen the screws.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/taikohub-dactyl-manuform-keyboard-with-nice-nano-v2-step-3.jpg" alt="taikohub-dactyl-manuform-keyboard-bluetooth-nice-nanos-step-2"><figcaption><p>Figure 7.1.2.2 Step 2 - Insert the new Bluetooth enabled microcontroller. If you want the USB-C port to be closer to the edge of the keyboard, you can loosen the screws.</p></figcaption></figure>
 
 
 
@@ -71,7 +79,7 @@ No special instructions for inserting the battery. As long as you obtained the c
 
 
 
-<figure><img src="../.gitbook/assets/taikohub-dactyl-manuform-keyboard-with-nice-nano-v2-step-2.jpg" alt=""><figcaption><p>Figure 7.1.2.3 Step 3 - Insert the new Bluetooth enabled microcontroller and the LiPo battery.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/taikohub-dactyl-manuform-keyboard-with-nice-nano-v2-step-2.jpg" alt="taikohub-dactyl-manuform-keyboard-bluetooth-nice-nanos-step-3"><figcaption><p>Figure 7.1.2.3 Step 3 - Insert the new Bluetooth enabled microcontroller and the LiPo battery.</p></figcaption></figure>
 
 
 
@@ -79,7 +87,7 @@ No special instructions for inserting the battery. As long as you obtained the c
 
 Put the cover back on. You did it 🎉! Proceed to the section on flashing your keyboard with ZMK.
 
-<figure><img src="../.gitbook/assets/taikohub-dactyl-manuform-keyboard-with-nice-nano-v2-step-4.jpg" alt=""><figcaption><p>Figure 7.1.2.4 Step 4 - Put the cover back on.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/taikohub-dactyl-manuform-keyboard-with-nice-nano-v2-step-4.jpg" alt="taikohub-dactyl-manuform-keyboard-bluetooth-nice-nanos-step-4"><figcaption><p>Figure 7.1.2.4 Step 4 - Put the cover back on.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Keyboards shipped before 2022-08-01" %}
@@ -105,11 +113,11 @@ Crimp the Dupont connectors onto the On-Off switch. To see how this is done, che
 
 <div>
 
-<figure><img src="../.gitbook/assets/latching-switch.png" alt=""><figcaption><p>Latching switch</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/latching-switch.png" alt="taikohub-dactyl-manuform-keyboard-bluetooth-latching-switch"><figcaption><p>Latching switch</p></figcaption></figure>
 
  
 
-<figure><img src="../.gitbook/assets/toggle-switch.png" alt=""><figcaption><p>Toggle switch</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/toggle-switch.png" alt="taikohub-dactyl-manuform-keyboard-bluetooth-toggle-switch"><figcaption><p>Toggle switch</p></figcaption></figure>
 
 </div>
 
@@ -125,7 +133,7 @@ It's not the most exciting, but it works. Although the keyboard would remain 'ON
 
 
 
-<figure><img src="../.gitbook/assets/dupont-wires (1).png" alt=""><figcaption><p>Wire with female 2-pin headers on both sides.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/dupont-wires (1).png" alt="taikohub-dactyl-manuform-keyboard-bluetooth-on-off-switch-wire"><figcaption><p>Wire with female 2-pin headers on both sides.</p></figcaption></figure>
 
 
 
@@ -135,7 +143,7 @@ a. Swap in your Bluetooth enabled microcontroller.
 
 b. Attach the LiPo battery to the JST-PH socket indicated by the green arrow in Figure 7.7.
 
-![Figure 7.7. Keyboard with nice!nano microcontroller. Green arrow indicates the JST-PH socket for the Lipo battery. Purple arrow indicates pin headers for the on-off switch.](../.gitbook/assets/taikorobotics\_ergonomic\_split\_mechanical\_keyboard\_sized\_medium\_swap\_microcontroller\_to\_nice\_nano\_assembly.jpg)
+<figure><img src="../.gitbook/assets/taikorobotics_ergonomic_split_mechanical_keyboard_sized_medium_swap_microcontroller_to_nice_nano_assembly.jpg" alt="taikohub-dactyl-manuform-keyboard-bluetooth-swap-nice-nano"><figcaption><p>Figure 7.7. Keyboard with nice!nano microcontroller. Green arrow indicates the JST-PH socket for the Lipo battery. Purple arrow indicates pin headers for the on-off switch.</p></figcaption></figure>
 
 
 
@@ -143,7 +151,7 @@ c. Attach the female pin headers of the on-off switch as indicated by the purple
 
 If you are using a wire, connect one end to position 1 and another to position 3 as indicated in Figure 7.8. Note that if you use a wire, the keyboard would remain 'ON' until you disconnect the wire.
 
-![Figure 7.8. Attach the on-off switch to the two male pin headers on the top right as indicated by the red arrows.](../.gitbook/assets/male\_pin\_headers\_for\_on\_off\_switch.jpg)
+<figure><img src="../.gitbook/assets/male_pin_headers_for_on_off_switch.jpg" alt="taikohub-dactyl-manuform-keyboard-bluetooth-pcb-pin-headers"><figcaption><p>Figure 7.8. Attach the on-off switch to the two male pin headers on the top right as indicated by the red arrows.</p></figcaption></figure>
 
 d. Put the cover back on. You did it 🎉! Proceed to the section on flashing your keyboard with ZMK.
 {% endtab %}

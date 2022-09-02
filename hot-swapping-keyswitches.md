@@ -56,11 +56,19 @@ The PCB is stabilized by the keyswitches. Removing one keyswitch at a time will 
 
 
 
-![Figure 5.1 Purple arrow points to the thinner, more flexible, metal pin. There generally shouldn't be any issues as long as this pin is aligned when inserting the new keyswitch.](.gitbook/assets/photo\_1\_keyswitch\_underside.jpg)
+<figure><img src=".gitbook/assets/photo_1_keyswitch_underside.jpg" alt="taikohub-dactyl-manuform-keyboard-hotswapping-tutorial-align-keyswitch-with-pcb"><figcaption><p>Figure 5.1 Purple arrow points to the thinner, more flexible, metal pin. There generally shouldn't be any issues as long as this pin is aligned when inserting the new keyswitch.</p></figcaption></figure>
 
 
 
-![Figure 5.2.A The purple arrows point to the metal foils in the hotswap socket. The metal pins on the keyswitch need to slide between the foils.](.gitbook/assets/kail.png) ![Figure 5.2.B Side view of the PCB. The purple arrows point to the metal foils in the hotswap socket.](.gitbook/assets/pcb\_sideview.jpg)
+<div>
+
+<figure><img src=".gitbook/assets/kail.png" alt="taikohub-dactyl-manuform-keyboard-hotswapping-tutorial-kailh-socket-pcb-close-up"><figcaption><p>Figure 5.2.A The purple arrows point to the metal foils in the hotswap socket. The metal pins on the keyswitch need to slide between the foils.</p></figcaption></figure>
+
+ 
+
+<figure><img src=".gitbook/assets/pcb_sideview.jpg" alt="taikohub-dactyl-manuform-keyboard-hotswapping-tutorial-kailh-socket-pcb-side-view"><figcaption><p>Figure 5.2.B Side view of the PCB. The purple arrows point to the metal foils in the hotswap socket.</p></figcaption></figure>
+
+</div>
 {% endtab %}
 
 {% tab title="Holding the keyswitch" %}
@@ -70,7 +78,7 @@ The PCB is stabilized by the keyswitches. Removing one keyswitch at a time will 
 
 
 
-![Figure 5.3 The orange arrows point to where I prefer to hold the keyswitch while aligning it.](.gitbook/assets/photo\_2\_keyswitch\_topside.jpg)
+<figure><img src=".gitbook/assets/photo_2_keyswitch_topside.jpg" alt="taikohub-dactyl-manuform-keyboard-hotswapping-tutorial-tip"><figcaption><p>Figure 5.3 The orange arrows point to where I prefer to hold the keyswitch while aligning it.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

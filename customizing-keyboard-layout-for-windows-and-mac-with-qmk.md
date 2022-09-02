@@ -20,7 +20,7 @@ For troubleshooting with QMK Toolbox, see [Section 8.1](troubleshooting/qmk-tool
 
 3.2 Navigate to  [QMK Configurator](https://config.qmk.fm/#/handwired/dactyl\_manuform/5x6/LAYOUT\_5x6).
 
-![Figure 3.1. QMK Configurator. Letters A to H refer to each step in this section.](.gitbook/assets/qmkconfigurator\_0.png)
+<figure><img src=".gitbook/assets/qmkconfigurator_0.png" alt="dactyl-manuform-qmk-tutorial-for-windows-and-mac-step-1"><figcaption><p>Figure 3.1. QMK Configurator. Letters A to H refer to each step in this section.</p></figcaption></figure>
 
 Letters A to H in Figure 3.1 refer to each step in this section.
 
@@ -92,7 +92,7 @@ H. Click <mark style="color:yellow;">`Download Firmware`</mark>. It will downloa
 
 3.3 Open the website to [QMK Toolbox](https://github.com/qmk/qmk\_toolbox/releases), which is used to flash the hex file onto your keyboard.
 
-![Figure 3.2. QMK Toolbox website navigation. The photo was taken when the latest version was 0.0.21. The latest version is now 0.2.2.](.gitbook/assets/qmktoolbox\_0.png)
+<figure><img src=".gitbook/assets/qmktoolbox_0.png" alt="dactyl-manuform-qmk-tutorial-for-windows-and-mac-step-2"><figcaption><p>Figure 3.2. QMK Toolbox website navigation. The photo was taken when the latest version was 0.0.21. The latest version is now 0.2.2.</p></figcaption></figure>
 
 A. Check that you are looking at the latest release. In the photo above, the latest version was 0.0.21. The latest release as of this writing is 0.2.2. If the latest version has the name "Latest Beta", scroll down to the next latest version.
 
@@ -104,7 +104,7 @@ C. Click to download <mark style="color:yellow;">`qmk_toolbox.exe`</mark> if you
 
 3.4 Open <mark style="color:yellow;">`qmk_toolbox.pkg`</mark>  or <mark style="color:yellow;">`qmk_toolbox.exe`</mark>. If you are opening QMK Toolbox for the first time, you might see a dialogue box asking "Would you like to install drivers for your devices?". Select <mark style="color:yellow;">`Yes`</mark>.
 
-![Figure 3.3. QMK Toolbox Navigation](.gitbook/assets/qmktoolbox\_open.png)
+<figure><img src=".gitbook/assets/qmktoolbox_open.png" alt="dactyl-manuform-qmk-tutorial-for-windows-and-mac-step-3"><figcaption><p>Figure 3.3. QMK Toolbox Navigation</p></figcaption></figure>
 
 A. If this is your first time using QMK Toolbox on your computer and you did not see the install drivers dialogue box, go to <mark style="color:yellow;">`Tool`</mark> then <mark style="color:yellow;">`Install Drivers`</mark>.
 
@@ -125,7 +125,7 @@ E. After ensuring only one piece of the keyboard is connected to your computer a
 
 3.4 Next, click the reset button indicated by the green arrow in Figure 3.4.
 
-![Figure 3.4 The green arrow indicates the reset switch. The blue arrow indicates the socket connecting the two pieces of the keyboard.](.gitbook/assets/taikorobotics\_ergonomic\_split\_mechanical\_curvilinear\_keyboard\_with\_audio\_socket.jpg)
+<figure><img src=".gitbook/assets/taikorobotics_ergonomic_split_mechanical_curvilinear_keyboard_with_audio_socket.jpg" alt="dactyl-manuform-qmk-tutorial-for-windows-and-mac-step-4"><figcaption><p>Figure 3.4 The green arrow indicates the reset switch. The blue arrow indicates the socket connecting the two pieces of the keyboard.</p></figcaption></figure>
 
 If it flashes correctly, you should see the following.
 

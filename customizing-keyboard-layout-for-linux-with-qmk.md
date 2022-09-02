@@ -106,7 +106,7 @@ If we look at our current keymap.c, we will see that the keycode furthest to the
 
 A quick Ctrl+F for `=` brings us to the following.&#x20;
 
-<img src=".gitbook/assets/image.png" alt="" data-size="line">
+<img src=".gitbook/assets/image.png" alt="dactyl-manuform-qmk-tutorial-for-linux-what-are-keycodes" data-size="line">
 
 Now we know to replace `KC_ESC` with `KC_EQUAL`, or its alias `KC_EQL`. After we flash the firmware in section 4.6 with our new keymap.c, the keyswitch to the top left of our keyboard will output `=` .
 
@@ -139,7 +139,7 @@ You should see:
 
 When you see "Detecting USB port, reset your controller now..." in the terminal, **click the keyboard reset button**, as indicated by the green arrow in Figure 4.2.
 
-![Figure 4.2 The green arrow indicates the reset switch. The blue arrow indicates the socket connecting the two pieces of the keyboard.](.gitbook/assets/taikorobotics\_ergonomic\_split\_mechanical\_curvilinear\_keyboard\_with\_audio\_socket.jpg)
+<figure><img src=".gitbook/assets/taikorobotics_ergonomic_split_mechanical_curvilinear_keyboard_with_audio_socket.jpg" alt="dactyl-manuform-qmk-tutorial-for-linux-reset-button"><figcaption><p>Figure 4.2 The green arrow indicates the reset switch. The blue arrow indicates the socket connecting the two pieces of the keyboard.</p></figcaption></figure>
 
 
 

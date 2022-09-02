@@ -18,28 +18,28 @@ The MO(1) and MO(2) keys seen in the keyboard layouts in section 1.2 below are a
 
 1.2 Default keyboard layout for size large (6 keyed thumb cluster)
 
-![Layer 0 - Default keymap.](<.gitbook/assets/Screenshot from 2021-06-24 21-58-42.png>)
+<figure><img src=".gitbook/assets/Screenshot from 2021-06-24 21-58-42.png" alt="taikohub-dactyl-manuform-keyboard-with-six-keyed-thumb-cluster-keyboard-layout-base-layer"><figcaption><p>Layer 0 - Default keymap.</p></figcaption></figure>
 
-![Layer 1 - The keymap when you hold MO(1).](<.gitbook/assets/Screenshot from 2021-06-24 21-59-05.png>)
+<figure><img src=".gitbook/assets/Screenshot from 2021-06-24 21-59-05.png" alt="taikohub-dactyl-manuform-keyboard-with-six-keyed-thumb-cluster-keyboard-layout-lower-layer"><figcaption><p>Layer 1 - The keymap when you hold MO(1).</p></figcaption></figure>
 
-![Layer 2 - The keymap when you hold MO(2).](<.gitbook/assets/Screenshot from 2021-06-24 21-59-24.png>)
+<figure><img src=".gitbook/assets/Screenshot from 2021-06-24 21-59-24.png" alt="taikohub-dactyl-manuform-keyboard-with-six-keyed-thumb-cluster-keyboard-layout-raised-layer"><figcaption><p>Layer 2 - The keymap when you hold MO(2).</p></figcaption></figure>
 
 
 
 1.3 Default keyboard layout for size medium (5 keyed thumb cluster)
 
-![Layer 0 - Default keymap. If your 5 keyed thumb cluster keyboard was shipped July 12, 2022 or later, it will have the keyboard layout shown above. For keyboards shipped prior to July 12, 2022, please see section 9. CHANGELOG.](.gitbook/assets/five\_layer\_0.jpg)
+<figure><img src=".gitbook/assets/five_layer_0.jpg" alt="taikohub-dactyl-manuform-keyboard-with-five-keyed-thumb-cluster-keyboard-layout-base-layer"><figcaption><p>Layer 0 - Default keymap. If your 5 keyed thumb cluster keyboard was shipped July 12, 2022 or later, it will have the keyboard layout shown above. For keyboards shipped prior to July 12, 2022, please see section 9. CHANGELOG.</p></figcaption></figure>
 
-![Layer 1 - The keymap when you hold MO(1).](.gitbook/assets/five\_layer\_1.png)
+<figure><img src=".gitbook/assets/five_layer_1.png" alt="taikohub-dactyl-manuform-keyboard-with-five-keyed-thumb-cluster-keyboard-layout-lower-layer"><figcaption><p>Layer 1 - The keymap when you hold MO(1).</p></figcaption></figure>
 
-![Layer 2 - The keymap when you hold MO(2).](.gitbook/assets/five\_layer\_2.png)
+<figure><img src=".gitbook/assets/five_layer_2.png" alt="taikohub-dactyl-manuform-keyboard-with-five-keyed-thumb-cluster-keyboard-layout-raised-layer"><figcaption><p>Layer 2 - The keymap when you hold MO(2).</p></figcaption></figure>
 
 
 
 1.4 Default keyboard layout for size small (3 keyed thumb cluster)
 
-![Layer 0 - Default keymap.](.gitbook/assets/layer0.png)
+<figure><img src=".gitbook/assets/layer0.png" alt="taikohub-dactyl-manuform-keyboard-with-three-keyed-thumb-cluster-keyboard-layout-base-layer"><figcaption><p>Layer 0 - Default keymap.</p></figcaption></figure>
 
-![Layer 1 - The keymap when you hold MO(1).](.gitbook/assets/layer1.png)
+<figure><img src=".gitbook/assets/layer1.png" alt="taikohub-dactyl-manuform-keyboard-with-three-keyed-thumb-cluster-keyboard-layout-lower-layer"><figcaption><p>Layer 1 - The keymap when you hold MO(1).</p></figcaption></figure>
 
-![Layer 2 - The keymap when you hold MO(2).](.gitbook/assets/layer2.png)
+<figure><img src=".gitbook/assets/layer2.png" alt="taikohub-dactyl-manuform-keyboard-with-three-keyed-thumb-cluster-keyboard-layout-raised-layer"><figcaption><p>Layer 2 - The keymap when you hold MO(2).</p></figcaption></figure>
