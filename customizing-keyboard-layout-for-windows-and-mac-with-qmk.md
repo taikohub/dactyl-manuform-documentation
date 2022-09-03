@@ -1,3 +1,7 @@
+---
+description: (15 min read)
+---
+
 # 3. Customizing Keyboard Layout for Windows and Mac with QMK
 
 3.1 Instructions

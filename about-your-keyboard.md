@@ -1,3 +1,7 @@
+---
+description: (5 min read)
+---
+
 # 2. About Your Keyboard
 
 2.1 Compatible keycaps

@@ -1,3 +1,7 @@
+---
+description: (10 min read)
+---
+
 # 6. Hot Swapping Keyswitches
 
 6.1 Hotswapping

@@ -1,3 +1,7 @@
+---
+description: (3 min read)
+---
+
 # 8. Tenting Your Keyboard
 
 8.1 Tenting your keyboard with plastic attachments

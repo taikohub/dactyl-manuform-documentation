@@ -1,3 +1,7 @@
+---
+description: (5 min read)
+---
+
 # 1. Introduction
 
 Thank you for purchasing a dactyl manuform keyboard. This user guide will be continuously updated. If you have any questions, please email me anytime at david@taikohub.com. I will try to get back to you as soon as I can.

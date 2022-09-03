@@ -1,3 +1,7 @@
+---
+description: (10 min read)
+---
+
 # 7. Swapping Microcontrollers
 
 7.1 Microcontrollers

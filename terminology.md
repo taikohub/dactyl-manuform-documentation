@@ -1,4 +1,4 @@
-# 9. Terminology
+# 10. Terminology
 
 9.1 Keycode: The output after you press a keyswitch. For example, "Q" or "F11".
 
@@ -16,6 +16,6 @@
 
 9.8 QMK CLI: QMK's official command line interface tool.
 
+9.9 Microcontroller: A microcontroller is a small device that controls your keyboard. Each piece of your keyboard comes with a Pro Micro microcontroller. You may come across it abbreviated as MCU, which stands for MicroController Unit.
 
-
-9.7 Microcontroller: A microcontroller is a small device that controls your keyboard. Each piece of your keyboard comes with a Pro Micro microcontroller. You may come across it abbreviated as MCU, which stands for MicroController Unit.
+9.10 Firmware: The software installed on microcontrollers to make your keyboard work. QMK firmware and ZMK firmware are examples.

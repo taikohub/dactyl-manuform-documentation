@@ -1,6 +1,8 @@
+---
+description: (10 min read)
+---
+
 # 7.1 Swapping Microcontrollers: Bluetooth
-
-
 
 {% hint style="danger" %}
 Unplug any cords or batteries before swapping your microcontrollers.
