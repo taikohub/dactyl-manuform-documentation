@@ -24,3 +24,8 @@ If you had not disconnected the TRRS cord from each piece of the keyboard while 
 
 If the right side of the keyboard is directly connected to the computer, some keys on the thumb cluster will not register. This is normal. Simply make sure USB cable is connected to the left side of the keyboard and the TRRS cable is connected to the right side of the keyboard. The keyboard should start working as normal.
 
+
+
+9.4 Keyboard doesn't register any keys
+
+If you are using a different USB cord from the one that came with your keyboard, it may be a USB cord issue. Check to see if the keyboard works with the default USB cord. Certain USB cords do not play well with the microcontroller. If you are using a USB-C to USB-C cord, try switching which side of the cord you plug into the computer and which side you plug into the keyboard. This can sometimes resolve the problem.&#x20;
