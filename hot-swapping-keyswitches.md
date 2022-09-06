@@ -35,9 +35,9 @@ Video 6.2. Another hotswapping demo.
 
 
 {% hint style="danger" %}
-Hotswap a single keyswitch at a time to avoid any issues.
+Hotswap up to one row of keyswitch at a time to avoid any issues.
 
-The PCB is stabilized by the keyswitches. Removing one keyswitch at a time will minimize movement of the PCB and avoid any hassle. Removing 2 or 3 keyswitches at a time shouldn't cause any issues, but please don't remove every keyswitch all at once.
+The PCB is stabilized by the keyswitches. Removing one row of keyswitch at a time will minimize movement of the PCB and avoid any hassle. Please don't remove every keyswitch all at once.
 {% endhint %}
 
 
@@ -45,8 +45,8 @@ The PCB is stabilized by the keyswitches. Removing one keyswitch at a time will 
 5.3 Summary
 
 1. Remove all the keycaps with the keycap puller.
-2. Remove a single keyswitch at a time.
-3. Pull out the keyswitch with a keyswitch puller, it should not take a lot of force. If the keyswitch is not coming out, try orienting it from a different angle.
+2. Remove a single row of keyswitch at a time.
+3. Pull out the keyswitch with a keyswitch puller, it should not take a lot of force. If the keyswitch is not coming out, try orienting it from a different angle. It may help to pull it in a curved motion.
 4. &#x20;Insert the new keyswitch.
 
 
