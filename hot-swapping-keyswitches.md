@@ -24,7 +24,7 @@ Not compatible with Kailh switches and low profile switches.
 
 5.2 Hotswapping demo
 
-{% embed url="https://youtu.be/1mZf4qUze8s" %}
+{% embed url="https://www.youtube.com/watch?v=1mZf4qUze8s" %}
 Video 6.1 Full Demo of Hotswapping a TaikoHub Dactyl Manuform Keyboard
 {% endembed %}
 
