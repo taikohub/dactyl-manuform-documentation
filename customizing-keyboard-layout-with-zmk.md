@@ -13,7 +13,7 @@ description: (10 min read)
 
 
 {% hint style="info" %}
-The first step to adding Bluetooth is to swap in nice!nanos. Follow steps from[swapping-microcontrollers.md](swapping-microcontrollers/swapping-microcontrollers.md "mention") before continuing below.
+The first step to adding Bluetooth is to swap in nice!nanos. Follow steps from[bluetooth.md](swapping-microcontrollers/bluetooth.md "mention") before continuing below.
 {% endhint %}
 
 

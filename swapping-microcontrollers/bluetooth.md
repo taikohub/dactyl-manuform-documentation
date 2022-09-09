@@ -19,7 +19,7 @@ QMK does not work well with Bluetooth. ZMK should be used instead.
 * [ ] 3mm Allen key
 * [ ] 2 x Microcontroller that support Bluetooth. The nice!nano V2 is officially supported, but most microcontrollers with a footprint similar to the Arduino Pro Micro should work. <mark style="color:red;">Not compatible with BlueMicro840 V1.0.</mark>
 * [ ] &#x20;2 x LiPo batteries with 2-Pin JST-PH. It's safest to get them from [Adafruit ](https://www.adafruit.com/product/1570)or [Sparkfun](https://www.sparkfun.com/products/13853).
-* [ ] If your keyboard shipped before 2022-08-01, you will also need either 2 On-Off switches or 2 wires with female pin headers on both ends. See[#choice-1-add-a-switch-onto-the-keyboard](swapping-microcontrollers.md#choice-1-add-a-switch-onto-the-keyboard "mention") for details.
+* [ ] If your keyboard shipped before 2022-08-01, you will also need either 2 On-Off switches or 2 wires with female pin headers on both ends. See[#choice-1-add-a-switch-onto-the-keyboard](bluetooth.md#choice-1-add-a-switch-onto-the-keyboard "mention") for details.
 
 
 
