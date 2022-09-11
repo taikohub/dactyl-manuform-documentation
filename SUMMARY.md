@@ -13,4 +13,4 @@
   * [9.1 Troubleshooting: QMK Toolbox](troubleshooting/qmk-toolbox.md)
 * [10. Terminology](terminology.md)
 * [11. Changelog](changelog.md)
-* [12. Hardware Issues Tracking](12.-hardware-issues-tracking.md)
+* [12. Hardware Issues Tracking](hardware-issues-tracking.md)
