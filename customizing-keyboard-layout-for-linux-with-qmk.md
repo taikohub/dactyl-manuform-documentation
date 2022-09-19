@@ -114,6 +114,51 @@ Now we know to replace `KC_ESC` with `KC_EQUAL`, or its alias `KC_EQL`. After we
 
 </details>
 
+<details>
+
+<summary>Keymap Extras - Add non-English languages.</summary>
+
+Add non-English languages to QMK with keymap extras. List of supported languages shown here: [https://github.com/qmk/qmk\_firmware/tree/master/quantum/keymap\_extras](https://github.com/qmk/qmk\_firmware/tree/master/quantum/keymap\_extras).
+
+The below is an example of a `keymap.c` file that includes the `keymap_spanish.h` module. You can also see the gist [here](https://gist.github.com/taikohub/1a0beb8892bf20db36ccbbff81747ba7).
+
+{% code title=".../5x6/keymaps/taiko/keymap.c" %}
+```clike
+//This is an example of a keymap.c file where we include an extra module.
+//Here we will use the keymap_spanish.h module, seen here: https://github.com/qmk/qmk_firmware/blob/master/quantum/keymap_extras/keymap_spanish.h.
+//We'll add the Spanish keycodes to the [_RAISE] layer, also known as the Layer #2. You would press MO(2) to access this layer.
+#include QMK_KEYBOARD_H
+
+//Step 1. Include the keymap_spanish.h module after `#include QMK_KEYBOARD_H`
+#include "keymap_spanish.h"
+
+#define _QWERTY 0
+#define _LOWER 1
+#define _RAISE 2
+
+#define RAISE MO(_RAISE)
+#define LOWER MO(_LOWER)
+
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+
+    [_QWERTY] = LAYOUT_5x6(
+        ...
+    ),
+    [_LOWER] = LAYOUT_5x6(
+        ...
+    ),
+    [_RAISE] = LAYOUT_5x6(
+          //Step 2. You can then add keycodes from the keymap_spanish.h module similar to below.
+          //Step 3. You can still use default QMK keycodes such as KC_F10 and KC_F11 seen below.
+          ES_MORD, ES_1, ES_2, ES_3, ES_4, ES_5,                                ES_6, ES_7, ES_8, ES_9, ES_0, KC_F10, KC_F11,
+          ...
+    )
+};
+```
+{% endcode %}
+
+</details>
+
 Save your keymap.c after you are finished editing.
 
 
