@@ -1,3 +1,7 @@
+---
+description: Email david@taikohub.com for any questions.
+---
+
 # 9. Troubleshooting
 
 9.1 Keyswitch is not working
@@ -25,11 +29,3 @@ If the right side of the keyboard is directly connected to the computer, some ke
 9.4 Keyboard doesn't register any keys
 
 If you are using a different USB cord from the one that came with your keyboard, it may be a USB cord issue. Check to see if the keyboard works with the default USB cord. Certain USB cords do not play well with the microcontroller. If you are using a USB-C to USB-C cord, try switching which side of the cord you plug into the computer and which side you plug into the keyboard. This can sometimes resolve the problem.&#x20;
-
-
-
-9.5 My problem isn't mentioned in the documentation
-
-Please share it in the GitHub discussion section seen below.
-
-{% embed url="https://github.com/taikohub/dactyl-manuform-documentation/discussions/categories/general" %}

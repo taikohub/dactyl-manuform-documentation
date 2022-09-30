@@ -14,7 +14,7 @@ If you are confused about anything or have suggestions on how to improve the doc
 
 
 
-### 1.1 Getting started
+## 1.2 Getting started
 
 1. Your keyboard should work without any configurations.&#x20;
 2. Plug in the USB cord to the **left side** of the keyboard.&#x20;
@@ -23,7 +23,7 @@ If you are confused about anything or have suggestions on how to improve the doc
 
 
 
-### 1.2 Keyboard layout
+## 1.3 Keyboard layout
 
 {% hint style="info" %}
 The MO(1) and MO(2) keys seen in the keyboard layouts in section 1.2 below are also known as LOWER and RAISE keys. These function similar to a SHIFT key on a regular keyboard.
@@ -31,7 +31,7 @@ The MO(1) and MO(2) keys seen in the keyboard layouts in section 1.2 below are a
 
 
 
-#### 1.2.1 Default keyboard layout for size large (6 keyed thumb cluster)
+#### 1.3.1 Default keyboard layout for size large (6 keyed thumb cluster)
 
 <figure><img src=".gitbook/assets/Screenshot from 2021-06-24 21-58-42.png" alt="taikohub-dactyl-manuform-keyboard-with-six-keyed-thumb-cluster-keyboard-layout-base-layer"><figcaption><p>Layer 0 - Default keymap.</p></figcaption></figure>
 
@@ -41,7 +41,7 @@ The MO(1) and MO(2) keys seen in the keyboard layouts in section 1.2 below are a
 
 
 
-#### 1.2.2 Default keyboard layout for size medium (5 keyed thumb cluster)
+#### 1.3.2 Default keyboard layout for size medium (5 keyed thumb cluster)
 
 <figure><img src=".gitbook/assets/five_layer_0.jpg" alt="taikohub-dactyl-manuform-keyboard-with-five-keyed-thumb-cluster-keyboard-layout-base-layer"><figcaption><p>Layer 0 - Default keymap. If your 5 keyed thumb cluster keyboard was shipped July 12, 2022 or later, it will have the keyboard layout shown above. For keyboards shipped prior to July 12, 2022, please see section 9. CHANGELOG.</p></figcaption></figure>
 
@@ -51,7 +51,7 @@ The MO(1) and MO(2) keys seen in the keyboard layouts in section 1.2 below are a
 
 
 
-#### 1.2.3 Default keyboard layout for size small (3 keyed thumb cluster)
+#### 1.3.3 Default keyboard layout for size small (3 keyed thumb cluster)
 
 <figure><img src=".gitbook/assets/layer0.png" alt="taikohub-dactyl-manuform-keyboard-with-three-keyed-thumb-cluster-keyboard-layout-base-layer"><figcaption><p>Layer 0 - Default keymap.</p></figcaption></figure>
 
