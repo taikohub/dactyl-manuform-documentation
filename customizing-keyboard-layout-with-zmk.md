@@ -18,13 +18,13 @@ The first step to adding Bluetooth is to swap in nice!nanos. Follow steps from[b
 
 
 
-5.2 Adding Bluetooth Functionality - The Fast Way (5 minutes)
+5.2 Adding Bluetooth Functionality
 
-If you want your keyboard to have the same QWERTY layout as it initially came with, continue following this section. Otherwise, skip to Section 5.3.
+Step 1.A Add Bluetooth the Fast Way Using Default Configuration Files (5 minutes)
 
+If you want your keyboard to have the same QWERTY layout as it initially came with, continue with this step. If you want to customize your keyboard layout, see Step 1.B instead.&#x20;
 
-
-Step 1. Download the configuration file for the left and right piece of your keyboard.
+Download the configuration file for the left and right piece of your keyboard. Then skip Step 1.B and continue to Step 2.
 
 {% tabs %}
 {% tab title="Size Large (6 Key Thumb Cluster)" %}
@@ -66,21 +66,34 @@ ZMK Configuration File for the **Left** side of the TaikoHub Dactyl Manuform Key
 
 
 
+Step 1.B Add Bluetooth the Slow Way By Customizing Your Own Configuration Files (10+ minutes)
+
+Navigate to [https://github.com/taikohub/zmk-config](https://github.com/taikohub/zmk-config). See the `Getting Started` section in the README. The steps can be summarized as:&#x20;
+
+1. Fork the repo.
+2. Clone it to your local machine.
+3. Edit `config/dactyl_manuform_5x6.keymap`.
+4. Push the edits to your remote repo.
+5. Navigate to GitHub Actions.
+6. Click `firmware` to download the firmware.zip file.&#x20;
+7. Unzip the firmware.zip. Then continue to Step 2.
+
+
+
 Step 2. Make sure the two sides of the keyboard are **not** connected to each other. Connect only the left piece of your keyboard to the computer.
+
+
 
 Step 3. Click the reset switch twice. You should see `NICE!NANO` show up as a USB device. If you opened up the directory, you would see 3 files. Ignore them. Do not edit or delete them. Even after you flash the keyboard, there will only be these 3 files.
 
 <figure><img src=".gitbook/assets/NICENANO should show up on as a USB device.png" alt=""><figcaption><p>Figure 5.2.1 You should see <code>NICE!NANO</code> show up as a USB device.</p></figcaption></figure>
 
+
+
 Step 4. Drag the  `dactyl_manuform_5x6_left-nice_nano_v2-zmk.uf` file into the USB device directory. You may see the following prompt: `Error while copying "dactyl_manuform_5x6_left-nice_nano_v2-zmk.uf2"`. This is not an actual error. The nice!nano uses the file you dragged to flash itself, then automatically ejects itself as a USB device.
 
 <figure><img src=".gitbook/assets/Error while copying.png" alt=""><figcaption><p>Figure 5.2.2 This prompt is not an error: <code>Error while copying "dactyl_manuform_5x6_left-nice_nano_v2-zmk.uf2"</code> .</p></figcaption></figure>
 
+
+
 Step 5. Repeat the same thing with the right side of the keyboard. Woot you're done! 🙌
-
-
-
-5.2 Adding Bluetooth Functionality - The Slow Way (10+ minutes)
-
-Coming soon.
-
