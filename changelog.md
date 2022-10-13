@@ -1,5 +1,7 @@
 # 11. Changelog
 
+The following describes changes to the [TaikoHub dactyl manuform keyboard](https://taikohub.com).
+
 **2022-07-12**: Medium sized keyboards (keyboards with 5 keyed thumb clusters) shipped July 12, 2022 or later, it's default layer will  have the keymap shown in Figure 9.1. For keyboards shipped prior to July 12, 2022, please see keymap from Version 2022-01-10.
 
 <figure><img src=".gitbook/assets/five_layer_0.jpg" alt="taikohub-dactyl-manuform-keyboard-five-keyed-thumb-cluster-old-keyboard-layout"><figcaption><p>Figure 11.1. Default keymap layer for medium sized keyboards shipped July 12, 2022 or later.</p></figcaption></figure>

@@ -4,11 +4,11 @@
 
 #### Resin Keyboards
 
-* Use an M6 Allen key to loosen the screws.
+* Use a 6mm Allen key to loosen the screws.
 
 #### PLA Keyboards
 
-* Use an M3 Allen key to loosen the screws.&#x20;
+* Use a 3mm Allen key to loosen the screws.&#x20;
 * Please turn the screws **slowly** and **gently**. About 1/4 turn per second is a good speed.
 * It may seem counterintuitive, but turning the screws too quickly or applying too much downward pressure will make it **harder** to tighten or loosen the screws. It can also damage the screw threads.&#x20;
 

@@ -6,7 +6,7 @@ description: (5 min read)
 
 ## 1.1 Welcome👋
 
-Thank you for purchasing a dactyl manuform keyboard. This user guide will be continuously updated. If you have any questions, please email me anytime at david@taikohub.com. I will try to get back to you as soon as I can.
+Thank you for purchasing a [TaikoHub dactyl manuform keyboard](https://taikohub.com/). This user guide will be continuously updated. If you have any questions, please email me anytime at david@taikohub.com. I will try to get back to you as soon as I can.
 
 Please make sure you selected the correct keyboard version on the left. Version refers to the date of shipment. For example, Version 2021-06-24 refers to any keyboard shipped from 2021-06-24 to 2021-09-11. Version 2022-07-01, the most current version, refers to any keyboards shipped after 2022-07-01.
 
