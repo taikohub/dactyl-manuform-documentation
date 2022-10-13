@@ -4,7 +4,7 @@ description: (15 min read)
 
 # 3. Customizing Keyboard Layout for Windows and Mac with QMK
 
-3.1 Instructions
+### 3.1 ✨Instructions
 
 This section uses QMK Toolbox, a GUI (graphical user interface) compatible with Mac and Windows. The QMK CLI (command line interface) is also compatible with Mac and Windows. But if you are not familiar with programming, you should follow section instead.
 
@@ -22,21 +22,25 @@ For troubleshooting with QMK Toolbox, see [Section 8.1](troubleshooting/qmk-tool
 
 
 
-3.2 Navigate to  [QMK Configurator](https://config.qmk.fm/#/handwired/dactyl\_manuform/5x6/LAYOUT\_5x6).
+### 3.2 🪄[QMK Configurator](https://config.qmk.fm/#/handwired/dactyl\_manuform/5x6/LAYOUT\_5x6) - Customize Your Keyboard Layout
 
 <figure><img src=".gitbook/assets/qmkconfigurator_0.png" alt="dactyl-manuform-qmk-tutorial-for-windows-and-mac-step-1"><figcaption><p>Figure 3.1. QMK Configurator. Letters A to H refer to each step in this section.</p></figcaption></figure>
 
-Letters A to H in Figure 3.1 refer to each step in this section.
+Navigate to QMK Configurator. Steps A to H in Figure 3.1 above refer to each step in this section.
 
 &#x20;
 
-A. Click the <mark style="color:yellow;">`Keyboard`</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;"></mark> dropdown. Select <mark style="color:yellow;">`handwired/dactyl_manuform/5x6`</mark>.&#x20;
+**Step A.** Click the <mark style="color:yellow;">`Keyboard`</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;"></mark> dropdown. Select <mark style="color:yellow;">`handwired/dactyl_manuform/5x6`</mark>.&#x20;
 
-B. Enter the name you want to give your layout. For example, you put <mark style="color:yellow;">my\_keymap</mark>, QMK will later generate a file with the name <mark style="color:yellow;">`handwired_dactyl_manuform_5x6_my_keymap.hex`</mark>
+
+
+**Step B.** Enter the name you want to give your layout. For example, if you put <mark style="color:yellow;">my\_keymap</mark>, QMK will later generate a file with the name <mark style="color:yellow;">`handwired_dactyl_manuform_5x6_my_keymap.hex`</mark>.
+
+
 
 <details>
 
-<summary>C. keymap.json - Save your progress (Optional)</summary>
+<summary>Step C. keymap.json - Save your progress (Optional)</summary>
 
 If you're not fully done customizing your keymap, the keymap.json file is a way to save your progress. You can return to your save point by uploading the keymap.json file to QMK Configurator. Note that downloading the keymap.json file is optional and the file is not what you use to flash your keyboard.
 
@@ -44,17 +48,21 @@ If you're not fully done customizing your keymap, the keymap.json file is a way 
 
 <details>
 
-<summary>D. keymap.json - Load previous save point (Optional)</summary>
+<summary>Step D. keymap.json - Load previous save point (Optional)</summary>
 
 As described in the previous step, this gives you the option to upload the keymap.json file to return to your save point.
 
 </details>
 
-E. This section in Figure 3.1 highlights the keyboard layout.
 
-F. Try dragging the <mark style="color:yellow;">`F1`</mark> keycode onto <mark style="color:yellow;">`End`</mark> on the keyboard layout. This changes that switch on the layout from <mark style="color:yellow;">`End`</mark> to <mark style="color:yellow;">`F1`</mark>. You likely won't want that button to be <mark style="color:yellow;">`F1`</mark>. Change it back by finding <mark style="color:yellow;">`End`</mark> in the keycode section and drag it to replace <mark style="color:yellow;">`F1`</mark>. Now that you're familiar with this, feel free to customize your keyboard layout.&#x20;
 
-The sections below refer to a specific QMK functionality called layers that is not seen in a traditional keyboard. If this is not important to you, feel free to skip to part G.
+**Step E.** This section in Figure 3.1 highlights the keyboard layout.
+
+
+
+**Step F.** Try dragging the <mark style="color:yellow;">`F1`</mark> keycode onto <mark style="color:yellow;">`End`</mark> on the keyboard layout. This changes that switch on the layout from <mark style="color:yellow;">`End`</mark> to <mark style="color:yellow;">`F1`</mark>. You likely won't want that button to be <mark style="color:yellow;">`F1`</mark>. Change it back by finding <mark style="color:yellow;">`End`</mark> in the keycode section and drag it to replace <mark style="color:yellow;">`F1`</mark>. Now that you're familiar with this, feel free to customize your keyboard layout.&#x20;
+
+The sections below refer to a specific QMK functionality called layers, which is not found in a traditional keyboard. If this is not important to you, feel free to skip to part G.
 
 <details>
 
@@ -88,48 +96,70 @@ Tapping this key switches your keymapping to the new layer until you decide to s
 
 </details>
 
-G. When you are finished customizing your layout, click <mark style="color:yellow;">`Compile`</mark>. You should see a nice rotating potato baking in outerspace. Once this is done, the <mark style="color:yellow;">`Download Firmware`</mark> button should no longer be gray.
-
-H. Click <mark style="color:yellow;">`Download Firmware`</mark>. It will download a file with a name similar to `handwired_dactyl_manuform_5x6_your_keymap.hex`. You will use this to flash your keyboard. You are ready to go to part 3.3.&#x20;
 
 
+**Step G.** When you are finished customizing your layout, click <mark style="color:yellow;">`Compile`</mark>. You should see a nice rotating potato baking in outerspace. Once this is done, the <mark style="color:yellow;">`Download Firmware`</mark> button should no longer be gray.
 
-3.3 Open the website to [QMK Toolbox](https://github.com/qmk/qmk\_toolbox/releases), which is used to flash the hex file onto your keyboard.
+
+
+**Step H.** Click <mark style="color:yellow;">`Download Firmware`</mark>. It will download a file with a name similar to `handwired_dactyl_manuform_5x6_your_keymap.hex`. You will use this to flash your keyboard. You are ready to go to part 3.3.&#x20;
+
+
+
+### 3.3 🛠️[QMK Toolbox](https://github.com/qmk/qmk\_toolbox/releases) - Download the Keyboard Layout Installation Tool
 
 <figure><img src=".gitbook/assets/qmktoolbox_0.png" alt="dactyl-manuform-qmk-tutorial-for-windows-and-mac-step-2"><figcaption><p>Figure 3.2. QMK Toolbox website navigation. The photo was taken when the latest version was 0.0.21. The latest version is now 0.2.2.</p></figcaption></figure>
 
-A. Check that you are looking at the latest release. In the photo above, the latest version was 0.0.21. The latest release as of this writing is 0.2.2. If the latest version has the name "Latest Beta", scroll down to the next latest version.
+**Step A.** Go to the [QMK Toolbox](https://github.com/qmk/qmk\_toolbox/releases) website. Check that you are looking at the latest release. In the photo above, the latest version was 0.0.21. The latest release as of this writing is 0.2.2. If the latest version has the name "Latest Beta", ignore it and scroll down to the next latest version.
 
-B. Click to download <mark style="color:yellow;">`qmk_toolbox.pkg`</mark> if you use Mac.
+****
 
-C. Click to download <mark style="color:yellow;">`qmk_toolbox.exe`</mark> if you use Windows.
+**Step B.** Click to download <mark style="color:yellow;">`qmk_toolbox.pkg`</mark> if you use Mac.
 
 
 
-3.4 Open <mark style="color:yellow;">`qmk_toolbox.pkg`</mark>  or <mark style="color:yellow;">`qmk_toolbox.exe`</mark>. If you are opening QMK Toolbox for the first time, you might see a dialogue box asking "Would you like to install drivers for your devices?". Select <mark style="color:yellow;">`Yes`</mark>.
+**Step C.** Click to download <mark style="color:yellow;">`qmk_toolbox.exe`</mark> if you use Windows.
+
+
+
+### 3.4 🛠️QMK Toolbox - Add Keyboard Layout to the Installation Tool
+
+Open <mark style="color:yellow;">`qmk_toolbox.pkg`</mark>  or <mark style="color:yellow;">`qmk_toolbox.exe`</mark>. If you are opening QMK Toolbox for the first time, you might see a dialogue box asking "Would you like to install drivers for your devices?". Select <mark style="color:yellow;">`Yes`</mark>.
 
 <figure><img src=".gitbook/assets/qmktoolbox_open.png" alt="dactyl-manuform-qmk-tutorial-for-windows-and-mac-step-3"><figcaption><p>Figure 3.3. QMK Toolbox Navigation</p></figcaption></figure>
 
-A. If this is your first time using QMK Toolbox on your computer and you did not see the install drivers dialogue box, go to <mark style="color:yellow;">`Tool`</mark> then <mark style="color:yellow;">`Install Drivers`</mark>.
+**Step A.** If this is your first time using QMK Toolbox on your computer **and you did NOT see the install drivers dialogue box**, go to <mark style="color:yellow;">`Tool`</mark> then <mark style="color:yellow;">`Install Drivers`</mark>. If you do not see it there, move your cursor to the whitespace at the bottom of QMK Toolbox, right click with your mouse and install drivers.
 
-B. Click <mark style="color:yellow;">`Open`</mark> then select the <mark style="color:yellow;">`handwired_dactyl_manuform_5x6_your_keymap_name.hex`</mark> file that was downloaded earlier.
 
-C. Make sure the dropdown menu shows <mark style="color:yellow;">`Atmega32U4`</mark>.
 
-D. Check off <mark style="color:yellow;">`Auto-Flash`</mark>. **DO NOT click Flash just yet!**&#x20;
+**Step B.** Click <mark style="color:yellow;">`Open`</mark>. Select the <mark style="color:yellow;">`handwired_dactyl_manuform_5x6_your_keymap_name.hex`</mark> file that was downloaded earlier.
 
-Before you flash the firmware, ensure you have:
 
-* [ ] Disconnect the audio cord from each piece of the keyboard. This cord normally connects to the socket indicated by the blue arrow in Figure 4.2 below.
+
+**Step C.** Make sure the dropdown menu shows <mark style="color:yellow;">`Atmega32U4`</mark>.
+
+
+
+**Step D.** Check off <mark style="color:yellow;">`Auto-Flash`</mark>. **DO NOT click Flash just yet!**
+
+
+
+### 3.5 🖥️Keyboard - Install the Keyboard Layout
+
+**Step A.** Before you click Flash, ensure you have:
+
+* [ ] Disconnected the audio cord from each piece of the keyboard. This cord normally connects to the socket indicated by the blue arrow in Figure 3.5 below.
 * [ ] Connected one piece of the keyboard to your computer via USB cord.
 
-E. After ensuring only one piece of the keyboard is connected to your computer and the audio cord is disconnected from both sides, click <mark style="color:yellow;">`Flash`</mark>. The toolbox will wait for you as you perform the following step.
+
+
+**Step B.** Click <mark style="color:yellow;">`Flash`</mark>. The toolbox will wait for you as you perform the next step.
 
 
 
-3.4 Next, click the reset button indicated by the green arrow in Figure 3.4.
+**Step C.** Click the reset button indicated by the green arrow in Figure 3.5.
 
-<figure><img src=".gitbook/assets/taikorobotics_ergonomic_split_mechanical_curvilinear_keyboard_with_audio_socket.jpg" alt="dactyl-manuform-qmk-tutorial-for-windows-and-mac-step-4"><figcaption><p>Figure 3.4 The green arrow indicates the reset switch. The blue arrow indicates the socket connecting the two pieces of the keyboard.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/taikorobotics_ergonomic_split_mechanical_curvilinear_keyboard_with_audio_socket.jpg" alt="dactyl-manuform-qmk-tutorial-for-windows-and-mac-step-4"><figcaption><p>Figure 3.5 The green arrow indicates the reset switch. The blue arrow indicates the socket connecting the two pieces of the keyboard.</p></figcaption></figure>
 
 If it flashes correctly, you should see the following.
 
@@ -163,9 +193,14 @@ If it flashes correctly, you should see the following.
 
 
 
-3.5 Repeat sections 3.3.E and 3.5 for the other piece of your keyboard.
+### 3.6 🖥️Keyboard - Repeat For the Other Piece of the Keyboard
+
+Repeat section 3.5 for the other piece of your keyboard.
 
 
 
-3.6 Reconnect the two pieces with the audio cord. The sockets for each piece are shown by the blue arrow in Figure 3.4. Then connect the USB cord from the **left** keyboard to the computer. Good work, you did it 🥳!
+### 3.7 🥳Good Work! You Did It!🎉
 
+* Reconnect the two pieces with the audio cord. The sockets for the audio cord are shown by the blue arrow in Figure 3.4.&#x20;
+* Connect the USB cord from the **left** keyboard to the computer.&#x20;
+* Good work, you did it 🎉!

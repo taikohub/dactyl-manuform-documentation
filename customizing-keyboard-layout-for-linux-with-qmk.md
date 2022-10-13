@@ -6,7 +6,7 @@ description: >-
 
 # 4. Customizing Keyboard Layout for Linux with QMK
 
-4.1 Instructions
+### 4.1 ✨Instructions
 
 {% code lineNumbers="true" %}
 ```
@@ -21,7 +21,7 @@ For reference, see the [QMK documentation](https://docs.qmk.fm/).
 
 
 
-4.2 Install the QMK CLI tool if you have not used it before
+### 4.2 ⚡QMK CLI - Installing the CLI Tool
 
 {% code lineNumbers="true" %}
 ```bash
@@ -32,9 +32,9 @@ qmk setup
 
 
 
-4.3 Test that the QMK CLI tool works by compiling a keymapping
+### 4.3 ⚡QMK CLI - Test Run the CLI Tool
 
-Here I test it with the clueboard/66/rev3 keymap.
+You can test that QMK CLI is working properly by compiling one of the default keymaps that came with the installation. For instance, we can test clueboard/66/rev3 as below.
 
 {% code lineNumbers="true" %}
 ```bash
@@ -42,7 +42,7 @@ qmk compile -kb clueboard/66/rev3 -km default
 ```
 {% endcode %}
 
-You should see a message similar to below:
+You should see a message similar to below.
 
 > Linking: .build/clueboard\_66\_rev3\_default.elf \[OK]
 >
@@ -56,7 +56,7 @@ You should see a message similar to below:
 
 
 
-4.4 Create a custom keymap
+### 4.4 ⚡QMK CLI - Creating a Custom Keymap
 
 {% code lineNumbers="true" %}
 ```bash
@@ -68,7 +68,9 @@ You'll then be prompted to give a name to the keymap. Here I give it the name `t
 
 
 
-4.5 Edit the keymap.c file with your preferred editor. Here I use nano.
+### 4.5 📝Keymap  - Editing keymap.c
+
+Edit the keymap.c file with your preferred editor. Here I use nano.
 
 {% code lineNumbers="true" %}
 ```bash
@@ -163,12 +165,12 @@ Save your keymap.c after you are finished editing.
 
 
 
-4.6 Flash the firmware
+### 4.6 🖥️Keyboard - Flashing the Firmware
 
-Before you flash the firmware, ensure you have:
+Before you flash the firmware:
 
-* [ ] Disconnect the audio cord from each piece of the keyboard. The audio cord connects to the socket indicated by the blue arrow in Figure 4.2 below.
-* [ ] Connected one piece of the keyboard to your computer via USB cord
+* [ ] Disconnect the audio cord from each piece of the keyboard. The audio cord connects to the socket indicated by the blue arrow in Figure 4.1 below.
+* [ ] Connect one piece of the keyboard to your computer via USB cord.
 
 
 
@@ -184,9 +186,9 @@ You should see:
 
 > Detecting USB port, reset your controller now...
 
-When you see "Detecting USB port, reset your controller now..." in the terminal, **click the keyboard reset button**, as indicated by the green arrow in Figure 4.2.
+When you see "Detecting USB port, reset your controller now..." in the terminal, **click reset button on the keyboard**, as indicated by the green arrow in Figure 4.1. No need to rush, QMK will wait for you.
 
-<figure><img src=".gitbook/assets/taikorobotics_ergonomic_split_mechanical_curvilinear_keyboard_with_audio_socket.jpg" alt="dactyl-manuform-qmk-tutorial-for-linux-reset-button"><figcaption><p>Figure 4.2 The green arrow indicates the reset switch. The blue arrow indicates the socket connecting the two pieces of the keyboard.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/taikorobotics_ergonomic_split_mechanical_curvilinear_keyboard_with_audio_socket.jpg" alt="dactyl-manuform-qmk-tutorial-for-linux-reset-button"><figcaption><p>Figure 4.1 The green arrow indicates the reset switch. The blue arrow indicates the socket connecting the two pieces of the keyboard.</p></figcaption></figure>
 
 
 
@@ -200,10 +202,12 @@ If it flashes correctly, you should see this message:&#x20;
 
 
 
-4.7 Repeat section 4.6 with the other piece of the keyboard
+### 4.7 🖥️Keyboard - Repeat Section 4.6 For the Other Piece of the Keyboard
 
 
 
-4.8 Before using the keyboard
+### 4.8 🥳Good Work! You Did It!🎉
 
-Make sure no keyboard is connected to your computer before attaching the audio cord to each piece of the keyboard. Afterwards, your keyboard is ready to go. Simply connect the USB cord from your computer to the **left** keyboard. Good work, you did it 🥳!
+* Make sure the keyboard is not connected to the computer before reconnecting the audio cord to each piece of the keyboard.
+* Connect the USB cord from your computer to the **left** keyboard.&#x20;
+* Good work, you did it 🎉!

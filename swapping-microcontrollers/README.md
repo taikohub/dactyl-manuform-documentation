@@ -4,13 +4,13 @@ description: (10 min read)
 
 # 7. Swapping Microcontrollers
 
-7.1 Microcontrollers
+### 7.1 Microcontrollers
 
 A microcontroller is a small device that controls your keyboard. Each piece of your keyboard comes with a Pro Micro microcontroller. You may come across it abbreviated as MCU, which stands for MicroController Unit.
 
 
 
-7.2 Why swap microcontrollers?
+### 7.2 Why swap microcontrollers?
 
 The main reason to swap microcontrollers is to add new features. For example, you may want to use a nice!nano microcontroller to add Bluetooth functionality. Or you may want to use a Adafruit KB2040, which uses a more powerful RP2040 chip, to add very complex macros.&#x20;
 
@@ -20,7 +20,7 @@ Unplug any cords or batteries before swapping your microcontrollers.
 
 
 
-7.3 Necessary tools and components
+### 7.3 Necessary tools and components
 
 * 3mm Allen key
 * Two new microcontrollers
@@ -33,7 +33,7 @@ Not compatible with BlueMicro840 V1.0.
 
 
 
-7.4. Swapping microcontrollers
+### 7.4. Swapping microcontrollers
 
 a. Remove all power source from your keyboard. Unplug any cords or batteries.
 

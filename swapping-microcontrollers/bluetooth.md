@@ -14,7 +14,7 @@ QMK does not work well with Bluetooth. ZMK should be used instead.
 
 
 
-7.1.1 Necessary tools and components
+### 7.1.1 Necessary tools and components
 
 * [ ] 3mm Allen key
 * [ ] 2 x Microcontroller that support Bluetooth. The nice!nano V2 is officially supported, but most microcontrollers with a footprint similar to the Arduino Pro Micro should work. <mark style="color:red;">Not compatible with BlueMicro840 V1.0.</mark>
@@ -43,7 +43,7 @@ It's recommended you use batteries from Adafruit or Sparkfun. You can use other 
 
 
 
-7.1.2 Adding Bluetooth
+### 7.1.2 Adding Bluetooth
 
 {% tabs %}
 {% tab title="Keyboards shipped after 2022-08-01" %}

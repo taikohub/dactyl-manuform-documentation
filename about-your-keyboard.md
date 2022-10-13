@@ -4,7 +4,7 @@ description: (5 min read)
 
 # 2. About Your Keyboard
 
-2.1 Compatible keycaps
+### 2.1 Compatible keycaps
 
 Compatible keycap profiles (keycap shapes): DSA, XDA, SA Row 3 and MA. The keyboard comes with DSA keycaps.
 
@@ -14,7 +14,7 @@ There is the option to use 1.5u sized keycaps for the 6-keyed thumb cluster, whi
 
 
 
-2.2 Compatible keyswitches for hotswapping
+### 2.2 Compatible keyswitches for hotswapping
 
 The keyboard is best used with **5 legged switches** (Figure 2.1) although 3 legged switches should still work, it's not officially supported. It is compatible with **MX Cherry switches,** Gateron switches, Holy Panda switches and other similar MX style switches.
 

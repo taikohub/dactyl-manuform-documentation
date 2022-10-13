@@ -4,13 +4,13 @@ description: (10 min read)
 
 # 6. Hot Swapping Keyswitches
 
-6.1 Hotswapping
+### 6.1 🔀Hotswapping
 
 Hotswapping refers to swapping out components while your keyboard is connected to your computer or another power source. Hotswapping keyswitches is safe and has been tested countless times. But you should **not** hotswap microcontrollers, as noted in Section 7.&#x20;
 
 
 
-6.2 Necessary tools and components
+### 6.2 🛠️Necessary Tools and Components
 
 * Keyswitches: **5-legged MX style keyswitches** are recommended. MX Cherry and Gaterons are officially supported. But it should work with most MX style switches.
 * Keyswitch puller
@@ -22,7 +22,7 @@ Not compatible with Kailh switches and low profile switches.
 
 
 
-5.2 Hotswapping demo
+### 6.3️🎬Hotswapping Demo
 
 {% embed url="https://www.youtube.com/watch?v=1mZf4qUze8s" %}
 Video 6.1 Full Demo of Hotswapping a TaikoHub Dactyl Manuform Keyboard
@@ -44,7 +44,7 @@ The PCB is stabilized by the keyswitches. Removing one row of keyswitch at a tim
 
 
 
-5.3 Summary
+### 6.4 📒Summary
 
 1. Remove all the keycaps with the keycap puller.
 2. Remove a single row of keyswitch at a time.
@@ -53,7 +53,7 @@ The PCB is stabilized by the keyswitches. Removing one row of keyswitch at a tim
 
 
 
-5.4 Tips
+### 6.5 ❇️Tips
 
 {% tabs %}
 {% tab title="Align the keyswitch metal pins" %}

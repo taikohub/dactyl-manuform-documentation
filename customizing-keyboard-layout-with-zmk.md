@@ -4,7 +4,7 @@ description: (10 min read)
 
 # 5. Customizing Keyboard Layout with ZMK
 
-5.1 ZMK Firmware
+### 5.1 🌀ZMK Firmware
 
 **Firmware:** Firmware is software installed on microcontrollers to make your keyboard work.
 
@@ -18,7 +18,7 @@ The first step to adding Bluetooth is to swap in nice!nanos. Follow steps from[b
 
 
 
-5.2 Adding Bluetooth Functionality
+### 5.2 📶Adding Bluetooth Functionality
 
 Step 1.A Add Bluetooth the Fast Way Using Default Configuration Files (5 minutes)
 
@@ -96,4 +96,11 @@ Step 4. Drag the  `dactyl_manuform_5x6_left-nice_nano_v2-zmk.uf` file into the U
 
 
 
-Step 5. Repeat the same thing with the right side of the keyboard. Woot you're done! 🙌
+### 5.3 🖥️Repeat for the Other Piece of the Keyboard
+
+* Repeat Section 5.2 Steps 2 to 4 for the right piece of the keyboard.
+
+### 5.4 🎊Woot you're done!
+
+
+
