@@ -68,7 +68,7 @@ You'll then be prompted to give a name to the keymap. Here I give it the name `t
 
 
 
-### 4.5 📝Keymap  - Editing keymap.c
+### 4.5 [📝Keymap  - Editing keymap.c](https://github.com/taikohub/dactyl-keyboard-keymap)
 
 Edit the keymap.c file with your preferred editor. Here I use nano.
 
@@ -84,10 +84,11 @@ While editing your keymap.c, you may wish to look at the following:
 
 <summary>Example keymap.c - Size Medium (Five Keyed Thumb Cluster)</summary>
 
-Below is an example of a keymap.c file for the size medium keyboard, also known as the five keyed thumb cluster. This file is also available on GitHub [here](https://github.com/taikohub/dactyl-keyboard-keymap/tree/main/five\_keyed\_thumb\_cluster\_keymap).
+Below is an example of a keymap.c file for the size medium keyboard, also known as the five keyed thumb cluster. This file is also available on GitHub [here](https://github.com/taikohub/dactyl-keyboard-keymap).
 
+{% code title="keymap.c" %}
 ```clike
-//An example of a keymap.c file for the Taikohub dactyl manuform keyboard with five keyed thumb cluster (medium sized).
+//This is an example of a keymap.c file for the Taikohub dactyl manuform keyboard with five keyed thumb cluster (size medium).
 //
 //1. A blank key with no function is indicated by 7 underscores: `________`.
 //
@@ -145,6 +146,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     )
 };
 ```
+{% endcode %}
 
 </details>
 
@@ -152,9 +154,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 <summary>Example keymap.c - Size Large (Six Keyed Thumb Cluster)</summary>
 
-Below is an example of a keymap.c file for the size large keyboard, also known as the six keyed thumb cluster keyboard. This file is also available on GitHub [here](https://github.com/taikohub/dactyl-keyboard-keymap/blob/main/six\_keyed\_thumb\_cluster\_keymap/keymap.c).
+Below is an example of a keymap.c file for the size large keyboard, also known as the six keyed thumb cluster keyboard. This file is also available on GitHub [here](https://github.com/taikohub/dactyl-keyboard-keymap).
 
+{% code title="keymap.c" %}
 ```clike
+//This is an example of a keymap.c file for the Taikohub dactyl manuform keyboard with six keyed thumb cluster (size large).
+//
+//1. A blank key with no function is indicated by 7 underscores: `________`.
+//
+//2. The `[_QWERTY]` layer is the default layer.
+
 #include QMK_KEYBOARD_H
 
 #define _QWERTY 0
@@ -202,6 +211,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 Footer
 
 ```
+{% endcode %}
 
 </details>
 
